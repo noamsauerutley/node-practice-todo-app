@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
-app.post('/api/vi/todos', (req, res) => {
+app.post('/api/v1/todos', (req, res) => {
   if(!req.body.title) {
     return res.status(400).send({
       succes: 'false',
