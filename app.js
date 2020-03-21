@@ -118,6 +118,8 @@ app.delete('/api/v1/todos/:id', (req, res) => {
   })
 })
 
+// issa full CRUD :)
+
 const PORT = 5000
 
 app.listen(PORT, () => {
